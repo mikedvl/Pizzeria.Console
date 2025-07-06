@@ -1,11 +1,10 @@
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using Pizzeria.Configuration;
-using Pizzeria.Infrastructure.Parsers.Interfaces;
-using Pizzeria.Models;
-using Pizzeria.Services.Interfaces;
+using Pizzeria.Application.Interfaces;
+using Pizzeria.Domain.Models;
+using Pizzeria.Infrastructure.Configuration;
 
-namespace Pizzeria.Services;
+namespace Pizzeria.Application.Services;
 
 public class OrderService(
     ISummaryResultFactory summaryResultFactory,

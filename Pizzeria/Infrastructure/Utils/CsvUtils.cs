@@ -1,4 +1,4 @@
-namespace Pizzeria.Utils;
+namespace Pizzeria.Infrastructure.Utils;
 
 /// <summary>
 /// Utility methods for CSV parsing.

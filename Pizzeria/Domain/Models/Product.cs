@@ -1,4 +1,4 @@
-namespace Pizzeria.Models;
+namespace Pizzeria.Domain.Models;
 
 public record Product(
     string ProductId,

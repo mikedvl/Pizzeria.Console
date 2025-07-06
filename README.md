@@ -16,7 +16,7 @@ It reads data from files (CSV/JSON), validates the input, and prints a formatted
 ## Configuration
 
 Application settings are managed via `appsettings.json`.  
-By default, the application expects the data files to be located in the Data/ directory relative to the executable.
+By default, the application expects the data files to be located in the Infrastructure/Data/ directory relative to the executable.
 You should configure paths to your data files in the DataFiles section only if you want to override the defaults.
 
 ### Sample `appsettings.json`:
@@ -24,9 +24,9 @@ You should configure paths to your data files in the DataFiles section only if y
 ```json
 {
   "DataFiles": {
-    "Orders": "Data/orders.csv",
-    "Products": "Data/products.json",
-    "Ingredients": "Data/ingredients.json"
+    "Orders": "Infrastructure/Data/orders.csv",
+    "Products": "Infrastructure/Data/products.json",
+    "Ingredients": "Infrastructure/Data/ingredients.json"
   }
 }
 ```

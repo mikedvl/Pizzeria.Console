@@ -1,5 +1,5 @@
 
-namespace Pizzeria.Utils;
+namespace Pizzeria.Infrastructure.Utils;
 
 public static class FileLoader
 {

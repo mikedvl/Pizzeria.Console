@@ -1,4 +1,4 @@
-namespace Pizzeria.Models.Dto;
+namespace Pizzeria.Domain.DTO;
 
 public class ValidatedOrder
 {

@@ -1,6 +1,6 @@
-using Pizzeria.Models;
-using Pizzeria.Services;
-using Pizzeria.Services.Interfaces;
+using Pizzeria.Application.Interfaces;
+using Pizzeria.Application.Services;
+using Pizzeria.Domain.Models;
 
 namespace Pizzeria.Tests.Unit.Validators;
 

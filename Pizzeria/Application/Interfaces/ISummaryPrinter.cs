@@ -1,6 +1,6 @@
-using Pizzeria.Models.Dto;
+using Pizzeria.Domain.DTO;
 
-namespace Pizzeria.Services.Interfaces;
+namespace Pizzeria.Application.Interfaces;
 
 public interface ISummaryPrinter
 { 

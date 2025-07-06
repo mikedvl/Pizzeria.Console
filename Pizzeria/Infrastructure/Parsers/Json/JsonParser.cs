@@ -1,5 +1,5 @@
-using Pizzeria.Infrastructure.Parsers.Interfaces;
-using Pizzeria.Models;
+using Pizzeria.Application.Interfaces;
+using Pizzeria.Domain.Models;
 
 namespace Pizzeria.Infrastructure.Parsers.Json;
 

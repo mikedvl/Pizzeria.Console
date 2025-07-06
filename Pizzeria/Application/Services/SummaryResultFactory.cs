@@ -1,8 +1,8 @@
-using Pizzeria.Models;
-using Pizzeria.Models.Dto;
-using Pizzeria.Services.Interfaces;
+using Pizzeria.Application.Interfaces;
+using Pizzeria.Domain.DTO;
+using Pizzeria.Domain.Models;
 
-namespace Pizzeria.Services;
+namespace Pizzeria.Application.Services;
 
 public class SummaryResultFactory(
     IOrderValidator validator,

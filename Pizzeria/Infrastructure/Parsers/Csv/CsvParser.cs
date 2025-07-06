@@ -1,7 +1,7 @@
 using System.Globalization;
-using Pizzeria.Infrastructure.Parsers.Interfaces;
-using Pizzeria.Models;
-using Pizzeria.Utils;
+using Pizzeria.Application.Interfaces;
+using Pizzeria.Domain.Models;
+using Pizzeria.Infrastructure.Utils;
 
 namespace Pizzeria.Infrastructure.Parsers.Csv;
 

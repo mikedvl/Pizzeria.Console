@@ -23,15 +23,17 @@
     </ItemGroup>
     
     <ItemGroup>
-        <None Update="Data/*.json">
+        <None Update="Infrastructure/Data/*.json">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
-        <None Update="Data/*.csv">
+        <None Update="Infrastructure/Data/*.csv">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
     </ItemGroup>
     
     <ItemGroup>
+      <Folder Include="Application\" />
+      <Folder Include="Domain\" />
       <Folder Include="Infrastructure\" />
     </ItemGroup>
 

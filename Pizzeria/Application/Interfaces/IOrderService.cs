@@ -1,4 +1,4 @@
-namespace Pizzeria.Services.Interfaces;
+namespace Pizzeria.Application.Interfaces;
 
 public interface IOrderService
 {

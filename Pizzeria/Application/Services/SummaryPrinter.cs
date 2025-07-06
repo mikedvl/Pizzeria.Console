@@ -1,8 +1,8 @@
 using System.Globalization;
-using Pizzeria.Models.Dto;
-using Pizzeria.Services.Interfaces;
+using Pizzeria.Application.Interfaces;
+using Pizzeria.Domain.DTO;
 
-namespace Pizzeria.Services;
+namespace Pizzeria.Application.Services;
 
 public class SummaryPrinter : ISummaryPrinter
 {

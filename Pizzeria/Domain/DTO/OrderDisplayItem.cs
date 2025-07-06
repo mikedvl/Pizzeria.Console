@@ -1,4 +1,4 @@
-namespace Pizzeria.Models.Dto;
+namespace Pizzeria.Domain.DTO;
 
 public record OrderDisplayItem(
     string ProductId,

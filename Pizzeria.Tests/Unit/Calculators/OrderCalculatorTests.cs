@@ -1,6 +1,6 @@
-using Pizzeria.Models;
-using Pizzeria.Models.Dto;
-using Pizzeria.Services;
+using Pizzeria.Application.Services;
+using Pizzeria.Domain.DTO;
+using Pizzeria.Domain.Models;
 
 namespace Pizzeria.Tests.Unit.Calculators;
 

@@ -1,4 +1,4 @@
-namespace Pizzeria.Configuration;
+namespace Pizzeria.Infrastructure.Configuration;
 
 public class DataFileSettings
 {

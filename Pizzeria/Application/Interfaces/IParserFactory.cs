@@ -1,4 +1,4 @@
-namespace Pizzeria.Infrastructure.Parsers.Interfaces;
+namespace Pizzeria.Application.Interfaces;
 
 public interface IParserFactory
 {

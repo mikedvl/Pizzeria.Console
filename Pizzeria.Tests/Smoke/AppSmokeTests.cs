@@ -1,12 +1,11 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Pizzeria.Configuration;
+using Pizzeria.Application.Interfaces;
+using Pizzeria.Application.Services;
+using Pizzeria.Infrastructure.Configuration;
 using Pizzeria.Infrastructure.Parsers;
 using Pizzeria.Infrastructure.Parsers.Csv;
-using Pizzeria.Infrastructure.Parsers.Interfaces;
 using Pizzeria.Infrastructure.Parsers.Json;
-using Pizzeria.Services;
-using Pizzeria.Services.Interfaces;
 using Pizzeria.Tests.Utils;
 
 namespace Pizzeria.Tests.Smoke;

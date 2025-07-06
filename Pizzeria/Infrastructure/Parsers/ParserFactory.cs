@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
+using Pizzeria.Application.Interfaces;
 using Pizzeria.Infrastructure.Parsers.Csv;
-using Pizzeria.Infrastructure.Parsers.Interfaces;
 using Pizzeria.Infrastructure.Parsers.Json;
 
 namespace Pizzeria.Infrastructure.Parsers;

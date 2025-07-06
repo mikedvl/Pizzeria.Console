@@ -1,5 +1,5 @@
 using System.Text.Json;
-using Pizzeria.Utils;
+using Pizzeria.Infrastructure.Utils;
 
 namespace Pizzeria.Infrastructure.Parsers.Json;
 

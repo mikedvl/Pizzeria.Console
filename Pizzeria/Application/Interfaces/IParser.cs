@@ -1,6 +1,6 @@
-using Pizzeria.Models;
+using Pizzeria.Domain.Models;
 
-namespace Pizzeria.Infrastructure.Parsers.Interfaces;
+namespace Pizzeria.Application.Interfaces;
 
 public interface IParser
 {

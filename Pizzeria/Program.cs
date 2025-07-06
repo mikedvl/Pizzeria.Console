@@ -1,14 +1,13 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
+using Pizzeria.Application.Interfaces;
+using Pizzeria.Application.Services;
+using Pizzeria.Infrastructure.Configuration;
 using Serilog;
-using Pizzeria.Configuration;
 using Pizzeria.Infrastructure.Parsers;
 using Pizzeria.Infrastructure.Parsers.Csv;
-using Pizzeria.Infrastructure.Parsers.Interfaces;
 using Pizzeria.Infrastructure.Parsers.Json;
-using Pizzeria.Services;
-using Pizzeria.Services.Interfaces;
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Debug()
